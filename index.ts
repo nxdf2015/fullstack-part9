@@ -8,6 +8,8 @@ app.get("/hello",(_req,resp)=> {
     return resp.send("Hello fullstack !")
 })
 
+
+
 app.get('/bmi',(req,resp)=> {
     const weight: number  = parseInt(req.query.weight as string)
     const height : number = parseInt(req.query.height as string )

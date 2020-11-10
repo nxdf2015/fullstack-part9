@@ -1,9 +1,7 @@
 
 
     function calculateBmi( height : number , weight : number ) : string {
-    // if (Number.isNaN(height) || Number.isNaN(weight)){
-
-    // }
+    
 
     console.log(weight)
     const  bmi = weight * 10000/   Math.pow(height , 2)
