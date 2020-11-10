@@ -45,7 +45,7 @@ if (process.argv.length < 4){
     console.log('use: npm run  calculateExercise -- (target:number) (exercise:Array<number>)')
 }
 else {
-   let response : Amount
+   let response : Amount=  
    let target: number
    let daily : Array<number>
 
@@ -56,10 +56,11 @@ else {
        target = argv[0]
        daily=argv.slice(1) 
        response = calculateExercises(daily,target)
+       console.log(response)
     }
     catch(error){
         console.log(error.message)
     }
-    console.log(response)
+    
      
 }

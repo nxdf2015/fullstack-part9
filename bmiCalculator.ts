@@ -31,11 +31,11 @@ else {
     try {
         
           [height , weight ]   = process.argv.slice(2).map(v => +v)
+          console.log(`height : ${height /100 } , weight ${weight}`)
+          console.log(calculateBmi(height , weight))
     }
     catch(error){
         console.log(error.message)
     }
-    console.log(`height : ${height /100 } , weight ${weight}`)
-    console.log(calculateBmi(height , weight))
 }
  
