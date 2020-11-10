@@ -1,0 +1,28 @@
+{
+  "name": "fullstack-part9",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "ts-node": "ts-node",
+    "calculateBmi": "ts-node    bmiCalculator.ts",
+    "calculateExercises": "ts-node    exerciseCalculator.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nxdf2015/fullstack-part9.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nxdf2015/fullstack-part9/issues"
+  },
+  "homepage": "https://github.com/nxdf2015/fullstack-part9#readme",
+  "devDependencies": {
+    "@types/node": "^14.14.7",
+    "ts-node": "^9.0.0",
+    "typescript": "^4.0.5"
+  },
+  "dependencies": {}
+}
